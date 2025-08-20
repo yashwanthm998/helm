@@ -2,4 +2,9 @@ image:
   repository: busybox
   tag: latest
   pullPolicy: IfNotPresent
+
 appMessage: "Shipping Service"
+
+service:
+  port: 80
+
